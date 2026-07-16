@@ -1,0 +1,79 @@
+.players-table{
+
+    background:#FFFFFF;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    overflow-x:auto;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+
+}
+
+.players-table table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    min-width:1700px;
+
+}
+
+.players-table thead{
+
+    background:#F4F6F1;
+
+}
+
+.players-table th{
+
+    padding:16px;
+
+    text-align:left;
+
+    font-size:14px;
+
+    color:#344531;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+.players-table td{
+
+    padding:16px;
+
+    border-bottom:1px solid #EEF2F5;
+
+    font-size:14px;
+
+    color:#12263A;
+
+    white-space:nowrap;
+
+}
+
+.players-table tbody tr:hover{
+
+    background:#FAFBF9;
+
+}
+
+.players-table::-webkit-scrollbar{
+
+    height:8px;
+
+}
+
+.players-table::-webkit-scrollbar-thumb{
+
+    background:#B7C3B0;
+
+    border-radius:20px;
+
+}

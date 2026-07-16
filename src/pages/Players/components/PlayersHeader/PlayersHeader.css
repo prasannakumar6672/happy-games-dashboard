@@ -1,0 +1,29 @@
+.players-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.players-header h1{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#12263A;
+
+    margin-bottom:6px;
+
+}
+
+.players-header p{
+
+    font-size:15px;
+
+    color:#8A97A1;
+
+}

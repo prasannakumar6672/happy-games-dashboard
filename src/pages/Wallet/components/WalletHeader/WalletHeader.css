@@ -1,0 +1,29 @@
+.wallet-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.wallet-header h1{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#12263A;
+
+    margin-bottom:6px;
+
+}
+
+.wallet-header p{
+
+    font-size:15px;
+
+    color:#8A97A1;
+
+}

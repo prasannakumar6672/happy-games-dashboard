@@ -1,0 +1,53 @@
+.master-layout{
+
+display:flex;
+
+background:#F4F6F1;
+
+min-height:100vh;
+
+}
+
+/* Main Section */
+
+.master-main{
+
+margin-left:260px;
+
+width:calc(100% - 260px);
+
+display:flex;
+
+flex-direction:column;
+
+min-height:100vh;
+
+}
+
+/* Content */
+
+.master-content{
+
+flex:1;
+
+padding:30px;
+
+background:#F4F6F1;
+
+overflow-y:auto;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.master-main{
+
+margin-left:0;
+
+width:100%;
+
+}
+
+}

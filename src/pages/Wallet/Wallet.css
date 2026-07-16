@@ -1,0 +1,63 @@
+/* ==========================================
+   Wallet Page
+========================================== */
+
+.wallet-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:32px;
+
+    width:100%;
+
+    min-height:100%;
+
+}
+
+/* ==========================================
+   Charts Row
+========================================== */
+
+.wallet-chart-row{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:24px;
+
+    align-items:start;
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:1200px){
+
+.wallet-chart-row{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.wallet-page{
+
+    gap:24px;
+
+}
+
+.wallet-chart-row{
+
+    gap:20px;
+
+}
+
+}

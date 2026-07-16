@@ -1,0 +1,25 @@
+.referral-box{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:4px;
+
+}
+
+.referral-box strong{
+
+    color:#12263A;
+
+    font-size:15px;
+
+}
+
+.referral-box span{
+
+    color:#8A97A1;
+
+    font-size:13px;
+
+}

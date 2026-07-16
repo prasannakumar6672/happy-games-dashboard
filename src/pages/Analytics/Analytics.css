@@ -1,0 +1,63 @@
+/* ==========================================
+   Analytics Page
+========================================== */
+
+.analytics-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:32px;
+
+    width:100%;
+
+    min-height:100%;
+
+}
+
+/* ==========================================
+   Pie Charts
+========================================== */
+
+.analytics-chart-row{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:24px;
+
+    align-items:start;
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:1200px){
+
+.analytics-chart-row{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.analytics-page{
+
+    gap:24px;
+
+}
+
+.analytics-chart-row{
+
+    gap:20px;
+
+}
+
+}

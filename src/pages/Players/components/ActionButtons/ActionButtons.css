@@ -1,0 +1,50 @@
+.block-btn,
+.unblock-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:8px 14px;
+
+    color:#FFFFFF;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.block-btn{
+
+    background:#DC2626;
+
+}
+
+.block-btn:hover{
+
+    background:#B91C1C;
+
+}
+
+.unblock-btn{
+
+    background:#16A34A;
+
+}
+
+.unblock-btn:hover{
+
+    background:#15803D;
+
+}

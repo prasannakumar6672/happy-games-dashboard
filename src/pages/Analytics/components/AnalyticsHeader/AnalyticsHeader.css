@@ -1,0 +1,29 @@
+.analytics-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.analytics-header h1{
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#12263A;
+
+    margin-bottom:6px;
+
+}
+
+.analytics-header p{
+
+    font-size:15px;
+
+    color:#8A97A1;
+
+}

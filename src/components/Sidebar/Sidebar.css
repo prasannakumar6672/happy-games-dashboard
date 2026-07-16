@@ -1,0 +1,247 @@
+/* ==========================================
+   Sidebar
+========================================== */
+
+.sidebar{
+
+    width:260px;
+
+    height:100vh;
+
+    background:#344531;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:30px 20px;
+
+    z-index:1000;
+
+}
+
+/* ==========================================
+   Logo
+========================================== */
+
+.sidebar-logo{
+
+    flex-shrink:0;
+
+    margin-bottom:30px;
+
+}
+
+.sidebar-logo h1{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#FFFFFF;
+
+    margin-bottom:5px;
+
+}
+
+.sidebar-logo span{
+
+    font-size:14px;
+
+    color:#D8E2D3;
+
+    font-weight:500;
+
+}
+
+/* ==========================================
+   Scrollable Navigation
+========================================== */
+
+.sidebar-scroll{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding-right:4px;
+
+}
+
+/* ==========================================
+   Navigation
+========================================== */
+
+.sidebar-menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.sidebar-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:14px 16px;
+
+    border-radius:12px;
+
+    color:#E8EBE6;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:all .25s ease;
+
+}
+
+.sidebar-item svg{
+
+    flex-shrink:0;
+
+}
+
+.sidebar-item:hover{
+
+    background:#516A47;
+
+    color:#FFFFFF;
+
+}
+
+.sidebar-item.active{
+
+    background:#FFFFFF;
+
+    color:#344531;
+
+    font-weight:600;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
+}
+
+/* ==========================================
+   Logout
+========================================== */
+
+.logout-btn{
+
+    flex-shrink:0;
+
+    width:100%;
+
+    margin-top:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#516A47;
+
+    color:#FFFFFF;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:all .25s ease;
+
+}
+
+.logout-btn:hover{
+
+    background:#6F8B60;
+
+}
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+.sidebar-scroll::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+.sidebar-scroll::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb{
+
+    background:#708A63;
+
+    border-radius:20px;
+
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover{
+
+    background:#8BA07F;
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:992px){
+
+.sidebar{
+
+    width:220px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.sidebar{
+
+    left:-260px;
+
+    transition:left .3s ease;
+
+}
+
+.sidebar.open{
+
+    left:0;
+
+}
+
+}
